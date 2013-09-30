@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://www.4d.com/namespace/reserved/FP/Constants">
+   <appid>&quot;0&quot;</appid>
+   <fourdversmin>&quot;9.0.0&quot;</fourdversmin>
+   <fourdversmax>&quot;9.0.0&quot;</fourdversmax>
+   <command name="OPC RESOURCE LIST" str="20000" topic="8">
+      <param position="2" k="20002"/>
+   </command>
+   <command name="OPC EXTERNAL RESOURCE LIST" str="20000" topic="12">
+      <param position="2" k="20002"/>
+   </command>
+   <command name="OPC RELATION LIST" str="20000" topic="16">
+      <param position="2" k="20002"/>
+   </command>
+   <command name="OPC Document type" str="20000" topic="17">
+      <param position="1" k="20001"/>
+   </command>
+   <command name="OPC Relation type" str="20000" topic="18">
+      <param position="1" k="20003"/>
+   </command>
+</application>
