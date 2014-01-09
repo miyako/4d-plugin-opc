@@ -12,7 +12,7 @@ Platform
 Windows x86 x64  
 Mac OS X 10.5 Intel  
 
-Remarks
--------
+Dependency
+----------
 libopc edited to accept Unicode file paths on Windows.  
 Package includes libiconv, libxml2, zlib.
