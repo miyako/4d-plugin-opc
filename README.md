@@ -14,5 +14,5 @@ Mac OS X 10.5 Intel
 
 Dependency
 ----------
-libopc edited to accept Unicode file paths on Windows.  
-Package includes libiconv, libxml2, zlib.
+Modified libopc, to accept Unicode file paths on Windows.  
+Standard libiconv, libxml2, zlib included in package.
