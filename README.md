@@ -9,7 +9,7 @@ Implementation of [libopc](http://libopc.codeplex.com) by Florian Reuter.
 
 How to use
 ----------
-See WiKi.
+Please consult the [WiKi](https://github.com/miyako/4d-plugin-opc/wiki).
 
 Platform
 --------
