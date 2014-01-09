@@ -11,3 +11,8 @@ Platform
 4D: v11 or later  
 Windows x86 x64  
 Mac OS X 10.5 Intel  
+
+Remarks
+-------
+libopc edited to accept Unicode file paths on Windows.
+Package includes libiconv, libxml2, zlib.
