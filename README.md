@@ -14,5 +14,5 @@ Mac OS X 10.5 Intel
 
 Remarks
 -------
-libopc edited to accept Unicode file paths on Windows.
+libopc edited to accept Unicode file paths on Windows.  
 Package includes libiconv, libxml2, zlib.
