@@ -9,7 +9,6 @@ Platform
 --------
 
 4D: v11 or later  
-Windows32  
-Windows64  
-Mac OS X 10.5  
-
+Windows x86 
+Windows x64  
+Mac OS X 10.5 Intel 
