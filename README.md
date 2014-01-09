@@ -6,7 +6,7 @@ Implementation of [libopc](http://libopc.codeplex.com) by Florian Reuter.
 
 How to use
 ----------
-Please consult the [WiKi](https://github.com/miyako/4d-plugin-opc/wiki).
+Please consult the [wiki](https://github.com/miyako/4d-plugin-opc/wiki).
 
 Platform
 --------
