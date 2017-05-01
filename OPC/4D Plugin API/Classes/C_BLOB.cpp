@@ -13,12 +13,15 @@ void CBytes::fromParamAtIndex(PackagePtr pParams, uint32_t index)
 	if(index)
 	{		
 		PA_Handle h = *(PA_Handle *)(pParams[index - 1]);
-		unsigned int size = PA_GetHandleSize(h);
-		
-		this->_CBytes.resize(size);
-		
-		PA_MoveBlock(PA_LockHandle(h), (char *)&this->_CBytes[0], size);		
-		PA_UnlockHandle(h);
+		if(h)//	the handle could be NULL if the BLOB is empty on windows
+		{
+			unsigned int size = PA_GetHandleSize(h);
+			
+			this->_CBytes.resize(size);
+			
+			PA_MoveBlock(PA_LockHandle(h), (char *)&this->_CBytes[0], size);		
+			PA_UnlockHandle(h);
+		}
 	}
 }
 
@@ -31,8 +34,12 @@ void CBytes::toParamAtIndex(PackagePtr pParams, uint32_t index)
 		if (*h) PA_DisposeHandle(*h);
 				
 		PA_Handle d = PA_NewHandle((unsigned int)this->_CBytes.size());
-		PA_MoveBlock((char *)&this->_CBytes[0], PA_LockHandle(d), (unsigned int)this->_CBytes.size());
-		PA_UnlockHandle(d);
+        
+        if(this->_CBytes.size())//  0 is apparently a range violation on windows
+        {
+            PA_MoveBlock((char *)&this->_CBytes[0], PA_LockHandle(d), (unsigned int)this->_CBytes.size());
+            PA_UnlockHandle(d);
+        }
 		
 		*h = d;
 	}
@@ -63,15 +70,22 @@ void CBytes::setReturn(sLONG_PTR *pResult)
 	PA_Handle *h = (PA_Handle *)pResult;
 	
 	PA_Handle d = PA_NewHandle((unsigned int)this->_CBytes.size());
-	PA_MoveBlock((char *)&this->_CBytes[0], PA_LockHandle(d), (unsigned int)this->_CBytes.size());
-	PA_UnlockHandle(d);
+    
+    if(this->_CBytes.size())//  0 is apparently a range violation on windows
+    {
+        PA_MoveBlock((char *)&this->_CBytes[0], PA_LockHandle(d), (unsigned int)this->_CBytes.size());
+        PA_UnlockHandle(d);
+    }
 	
 	*h = d;
 }
 
 const uint8_t *CBytes::getBytesPtr()
 {
-	return (const uint8_t *)&this->_CBytes[0];
+	if(this->_CBytes.size())
+		return (const uint8_t *)&this->_CBytes[0];
+
+	return NULL;//	the handle could be NULL if the BLOB is empty on windows
 }
 
 uint32_t CBytes::getBytesLength()
@@ -105,11 +119,16 @@ void CBytes::toHexText(C_TEXT *hex)
 {
 	
 	CUTF8String u;
-	
+	size_t pos = 0;
 	std::vector<uint8_t> buf(3);
 	const std::vector<uint8_t>::const_iterator binend = this->_CBytes.end();
 	
 	for (std::vector<uint8_t>::const_iterator i = this->_CBytes.begin(); i != binend; ++i) {
+		//breathe every 8KO
+		pos++;
+		if((pos % 0x2000)==0) {
+			PA_YieldAbsolute();
+		}
 #if VERSIONMAC
 		sprintf((char *)&buf[0], "%02x", *i);
 #else
@@ -137,6 +156,10 @@ void CBytes::fromHexText(C_TEXT *hex)
 	this->_CBytes.resize(0);
 	
 	for(pos = 0; pos < t.length(); pos++){
+		//breathe every 8KO
+		if((pos % 0x2000)==0) {
+			PA_YieldAbsolute();
+		}
 		
 		size_t f = v.find(t[pos]);
 		
@@ -145,7 +168,7 @@ void CBytes::fromHexText(C_TEXT *hex)
 			break;
 		} 
 		
-		if((f >= 0) && (f <= 15)){
+		if(f <= 15){
 			
 			if(data_in_buffer){
 				this->_CBytes.push_back(static_cast<uint8_t>((buf << 4) + f));
@@ -194,11 +217,13 @@ void CBytes::fromB64Text(C_TEXT *b64)
 	const CUTF8String::const_iterator last = t.end();
 	
 	std::vector<uint8_t> buf(0);	
+	::std::size_t outpos = 0;
 	
 	int bits_collected = 0;
 	unsigned int accumulator = 0;
 	
 	for (CUTF8String::const_iterator i = t.begin(); i != last; ++i) {
+
 		const int c = *i;
 		if (isspace(c) || c == '=') {
 			// Skip whitespace and padding. Be liberal in what you accept.
@@ -214,10 +239,13 @@ void CBytes::fromB64Text(C_TEXT *b64)
 		if (bits_collected >= 8) {
 			bits_collected -= 8;
 			this->_CBytes.push_back((uint8_t)((accumulator >> bits_collected) & 0xffu));
+			outpos++;
+			//breathe every 8KO
+			if((outpos % 0x2000)==0) {
+				PA_YieldAbsolute();
+			}
 		}
-		
 	}
-	
 }
 
 static const char b64_table[65] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
@@ -227,10 +255,14 @@ void CBytes::toB64Text(C_TEXT *b64)
 	
 	const ::std::size_t binlen = this->_CBytes.size();
 	
+	::std::size_t olen = (((binlen + 2) / 3) * 4);
+	olen += olen / 72; /* line feeds */
+	
 	// Use = signs so the end is properly padded.
-	CUTF8String retval((((binlen + 2) / 3) * 4), '=');
+	CUTF8String retval(olen, '=');
 	
 	::std::size_t outpos = 0;
+	::std::size_t line_len = 0;
 	int bits_collected = 0;
 	unsigned int accumulator = 0;
 	
@@ -242,6 +274,15 @@ void CBytes::toB64Text(C_TEXT *b64)
 		while (bits_collected >= 6) {
 			bits_collected -= 6;
 			retval[outpos++] = b64_table[(accumulator >> bits_collected) & 0x3fu];
+			line_len++;
+			if (line_len >= 72) {
+				retval[outpos++] = '\n';
+				line_len = 0;
+				//breathe every 8KO
+				if((outpos % 0x2000)==0) {
+					PA_YieldAbsolute();
+				}
+			}
 		}
 	}
 	

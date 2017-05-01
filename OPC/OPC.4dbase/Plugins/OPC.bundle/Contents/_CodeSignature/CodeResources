@@ -4,71 +4,119 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/COPYING (libiconv)</key>
+		<key>Resources/Documentation/images/Field_0.png</key>
 		<data>
-		hiS82uVbru8AzRHV38+mD2hxCgI=
+		tiDJoel4B9Su5Vc6F5vwnss1hxA=
 		</data>
-		<key>Resources/COPYING (libxml2)</key>
+		<key>Resources/Documentation/images/Field_1.png</key>
 		<data>
-		PCFQakXo0BcfyS/U/2kDwTrd5mA=
+		Xdham7YBdO9hHz9pu3JwI3RxzwA=
 		</data>
-		<key>Resources/Documentation/CSS/default.css</key>
+		<key>Resources/Documentation/images/Field_10.png</key>
 		<data>
-		vkG+55Mj7l6KQqrX7FKUwsK5PU0=
+		LjhDWK6ZACt2A2dwNz3OGcdRm+E=
 		</data>
-		<key>Resources/Documentation/content.html</key>
+		<key>Resources/Documentation/images/Field_11.png</key>
 		<data>
-		mpzjXjd9XkCgPc7E50sL35cmiu0=
+		BsQsfCQL7g79/hNSV/3jj2qjaY0=
+		</data>
+		<key>Resources/Documentation/images/Field_12.png</key>
+		<data>
+		7nj/vKfKe01w+5woEL6pRcUYBpA=
+		</data>
+		<key>Resources/Documentation/images/Field_13.png</key>
+		<data>
+		pvda6iJvKs8/nhpF0grnjsL72iE=
+		</data>
+		<key>Resources/Documentation/images/Field_2.png</key>
+		<data>
+		uqCQJfWQl6LHH7yJfK08g098syU=
+		</data>
+		<key>Resources/Documentation/images/Field_22.png</key>
+		<data>
+		uqCQJfWQl6LHH7yJfK08g098syU=
+		</data>
+		<key>Resources/Documentation/images/Field_23.png</key>
+		<data>
+		EPoeutAMyJUs5fTlv3VLBJE0Kms=
+		</data>
+		<key>Resources/Documentation/images/Field_24.png</key>
+		<data>
+		LhS49O/YINS4pVd2ddVJtLsM1mI=
+		</data>
+		<key>Resources/Documentation/images/Field_25.png</key>
+		<data>
+		2yt8aw96M2XVx+eR0GtlFxJQLoI=
+		</data>
+		<key>Resources/Documentation/images/Field_27.png</key>
+		<data>
+		GsutoOCbHzyqxv2YpOxYTYxdHow=
+		</data>
+		<key>Resources/Documentation/images/Field_29.png</key>
+		<data>
+		KSUNPiBpUFAlwCWvxW5M50znbQI=
+		</data>
+		<key>Resources/Documentation/images/Field_3.png</key>
+		<data>
+		EPoeutAMyJUs5fTlv3VLBJE0Kms=
+		</data>
+		<key>Resources/Documentation/images/Field_32.png</key>
+		<data>
+		7nj/vKfKe01w+5woEL6pRcUYBpA=
+		</data>
+		<key>Resources/Documentation/images/Field_4.png</key>
+		<data>
+		LhS49O/YINS4pVd2ddVJtLsM1mI=
+		</data>
+		<key>Resources/Documentation/images/Field_5.png</key>
+		<data>
+		2yt8aw96M2XVx+eR0GtlFxJQLoI=
+		</data>
+		<key>Resources/Documentation/images/Field_6.png</key>
+		<data>
+		ETvgikqdg49Jmk/16DOVlKPgHeg=
+		</data>
+		<key>Resources/Documentation/images/Field_7.png</key>
+		<data>
+		GsutoOCbHzyqxv2YpOxYTYxdHow=
+		</data>
+		<key>Resources/Documentation/images/Field_8.png</key>
+		<data>
+		6zTgta0+sL00+ZtchNPghmJlQxU=
+		</data>
+		<key>Resources/Documentation/images/Field_9.png</key>
+		<data>
+		KSUNPiBpUFAlwCWvxW5M50znbQI=
 		</data>
 		<key>Resources/Documentation/index.html</key>
 		<data>
-		VQ/cFdIbt45GE77T/IGUL/y5X7A=
+		5BfwGGMgPoxGQrmOOKD0iMdYF44=
 		</data>
-		<key>Resources/Documentation/toc.html</key>
+		<key>Resources/Documentation/styles/common.css</key>
 		<data>
-		GIxDIxwJW8HJqANyAGAKico/SdI=
+		q2MkLIqbO3Pku+N1cvLwp03xKCQ=
 		</data>
 		<key>Resources/English.lproj/InfoPlist.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pmwb0kQ+DW+JzHmtYaCmFgkbua8=
+			w7AENoxtXUow4wVBqYL2h2GqBcE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/LICENSE (libopc)</key>
-		<data>
-		7McgBZ1FDJ/JKYfwqw9YrpEjdKs=
-		</data>
-		<key>Resources/OPC.rsrc</key>
-		<data>
-		EPMwgqpX35NTIQfvlPfXlQsSkmU=
-		</data>
-		<key>Resources/README (zlib)</key>
-		<data>
-		s5+38SLDwdTXs9NFYBiS0Oqke7s=
-		</data>
 		<key>Resources/constants.xlf</key>
 		<data>
-		P1w7FdGdUVsSkAF1Av+2fz/aMMU=
-		</data>
-		<key>Resources/documentation.xml</key>
-		<data>
-		7CvYCWrypPhngn4jwGIR2tGkYpw=
-		</data>
-		<key>Resources/kmapper.xml</key>
-		<data>
-		K7SvE+rkgl4jK0XwHNnYJMX33vY=
+		/AXWdvSPL+jD5o1aySo7EM4Hfsk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/OPC.htm</key>
+		<key>MacOS/OPC.html</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+YcKA9q0LytRwsJD2BNEIFKj0TA=
+			1IVvrR7pkjUZBoj7rMCyRcvkKTw=
 			</data>
 			<key>requirement</key>
 			<string>identifier OPC and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -77,7 +125,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			DeO0N3uHWiCvS9tcgRTHTfnhQYo=
+			m3kDgMfXxNCLOvIuqoomNSqT2e4=
 			</data>
 			<key>requirement</key>
 			<string>identifier libiconv and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -86,7 +134,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			XuT7X7hZw7vJt70/Fs/GW29hcKI=
+			L3zM8aFS6Fdbh3ThRiKO6GzRXxo=
 			</data>
 			<key>requirement</key>
 			<string>identifier libopc and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -95,7 +143,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			v5xMsWAOUJKaJsXFN64AQK8DQkE=
+			0OOWtsw6BaQxKxhUOZJVNJMKN48=
 			</data>
 			<key>requirement</key>
 			<string>identifier libxml2 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -104,124 +152,440 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			AAAbw+eJd93GEQfJmG1y0sHQmbo=
+			w9n3zOQvhGb8qCTZdPKzMmC69Hs=
 			</data>
 			<key>requirement</key>
 			<string>identifier libz and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
 		</dict>
-		<key>Resources/COPYING (libiconv)</key>
-		<data>
-		hiS82uVbru8AzRHV38+mD2hxCgI=
-		</data>
-		<key>Resources/COPYING (libxml2)</key>
-		<data>
-		PCFQakXo0BcfyS/U/2kDwTrd5mA=
-		</data>
-		<key>Resources/Documentation/CSS/default.css</key>
-		<data>
-		vkG+55Mj7l6KQqrX7FKUwsK5PU0=
-		</data>
-		<key>Resources/Documentation/content.html</key>
-		<data>
-		mpzjXjd9XkCgPc7E50sL35cmiu0=
-		</data>
+		<key>QuickLook/Thumbnail.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LgsQFORWUNIL+UFexKFa4CiRctg=
+			</data>
+			<key>hash2</key>
+			<data>
+			98jKbUnZvoNXKS37m5JUoBfuRCxC2JzhKP+uHKV6WFc=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_0.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tiDJoel4B9Su5Vc6F5vwnss1hxA=
+			</data>
+			<key>hash2</key>
+			<data>
+			9vmEtgmmyGxRDYp2yfSg83yXqFC3Vb94MZzv8eHOKW4=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_1.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xdham7YBdO9hHz9pu3JwI3RxzwA=
+			</data>
+			<key>hash2</key>
+			<data>
+			TrpzHgo9oH+Dvp8sFNJ41e99Dbacr0g98j8bPNPYXEA=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_10.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LjhDWK6ZACt2A2dwNz3OGcdRm+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			/U/DyOkvYzpGpYhDNFqoFbaGTy++/3AEHoXEj45nSXw=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_11.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BsQsfCQL7g79/hNSV/3jj2qjaY0=
+			</data>
+			<key>hash2</key>
+			<data>
+			E724wFugux7v75OmnU3bGRO9pJUnaoziooTqnBuV97A=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_12.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7nj/vKfKe01w+5woEL6pRcUYBpA=
+			</data>
+			<key>hash2</key>
+			<data>
+			KVB9AtEP5sBt+fCXX9qh/rd3ZlcHO/Oa3Xoqu0jbeHQ=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_13.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pvda6iJvKs8/nhpF0grnjsL72iE=
+			</data>
+			<key>hash2</key>
+			<data>
+			+CZ+t08NJvU7i6wg32Dx2JYOhLPHNXe+Uu8IBsZH08Y=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uqCQJfWQl6LHH7yJfK08g098syU=
+			</data>
+			<key>hash2</key>
+			<data>
+			skXN3JxkZamLCu0bZ/kGsrp3B3hk3PKEWTMDXKtEaPM=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_22.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uqCQJfWQl6LHH7yJfK08g098syU=
+			</data>
+			<key>hash2</key>
+			<data>
+			skXN3JxkZamLCu0bZ/kGsrp3B3hk3PKEWTMDXKtEaPM=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_23.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EPoeutAMyJUs5fTlv3VLBJE0Kms=
+			</data>
+			<key>hash2</key>
+			<data>
+			2ld5c+3wNHdVnghc5ljivRo17LU+mtZJWepbdZoTcsU=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_24.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LhS49O/YINS4pVd2ddVJtLsM1mI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q+huqo1QhzGgfhferrSVajYsRwrDT/IZjU22Qc73pTA=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_25.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2yt8aw96M2XVx+eR0GtlFxJQLoI=
+			</data>
+			<key>hash2</key>
+			<data>
+			1OMbaC2wVHUUU30gXx3U7piJsw8aK8KK+F6KOqbTqpA=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_27.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GsutoOCbHzyqxv2YpOxYTYxdHow=
+			</data>
+			<key>hash2</key>
+			<data>
+			UKomJLZx3XUsaJXRQFWbJPG0cU2E1tzLwT/68a16lNg=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_29.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KSUNPiBpUFAlwCWvxW5M50znbQI=
+			</data>
+			<key>hash2</key>
+			<data>
+			vBqYAiuMveNMMmjpJUGwJHiVrvBGg9aGFSwFmmJdM2k=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_3.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EPoeutAMyJUs5fTlv3VLBJE0Kms=
+			</data>
+			<key>hash2</key>
+			<data>
+			2ld5c+3wNHdVnghc5ljivRo17LU+mtZJWepbdZoTcsU=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_32.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7nj/vKfKe01w+5woEL6pRcUYBpA=
+			</data>
+			<key>hash2</key>
+			<data>
+			KVB9AtEP5sBt+fCXX9qh/rd3ZlcHO/Oa3Xoqu0jbeHQ=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_4.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LhS49O/YINS4pVd2ddVJtLsM1mI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q+huqo1QhzGgfhferrSVajYsRwrDT/IZjU22Qc73pTA=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_5.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2yt8aw96M2XVx+eR0GtlFxJQLoI=
+			</data>
+			<key>hash2</key>
+			<data>
+			1OMbaC2wVHUUU30gXx3U7piJsw8aK8KK+F6KOqbTqpA=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_6.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ETvgikqdg49Jmk/16DOVlKPgHeg=
+			</data>
+			<key>hash2</key>
+			<data>
+			RxXse1vQJSnMR3dtYS1xLVx8DJGhNdVftEQmPAAOmJk=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_7.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GsutoOCbHzyqxv2YpOxYTYxdHow=
+			</data>
+			<key>hash2</key>
+			<data>
+			UKomJLZx3XUsaJXRQFWbJPG0cU2E1tzLwT/68a16lNg=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_8.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6zTgta0+sL00+ZtchNPghmJlQxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZpL3Z/DV8nCDAu/2LuVq6vZHobBPSmML1XJeM8jvYLw=
+			</data>
+		</dict>
+		<key>Resources/Documentation/images/Field_9.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KSUNPiBpUFAlwCWvxW5M50znbQI=
+			</data>
+			<key>hash2</key>
+			<data>
+			vBqYAiuMveNMMmjpJUGwJHiVrvBGg9aGFSwFmmJdM2k=
+			</data>
+		</dict>
 		<key>Resources/Documentation/index.html</key>
-		<data>
-		VQ/cFdIbt45GE77T/IGUL/y5X7A=
-		</data>
-		<key>Resources/Documentation/toc.html</key>
-		<data>
-		GIxDIxwJW8HJqANyAGAKico/SdI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			5BfwGGMgPoxGQrmOOKD0iMdYF44=
+			</data>
+			<key>hash2</key>
+			<data>
+			cYyqm5NGmF0yGUJRKdLDNUa9EsXSZ0hq/IbX4QW4wWM=
+			</data>
+		</dict>
+		<key>Resources/Documentation/styles/common.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q2MkLIqbO3Pku+N1cvLwp03xKCQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			rIVNwBjwCMNfpfCWIZchUp2lc4pKKGBI+/i7Oos1o7Q=
+			</data>
+		</dict>
 		<key>Resources/English.lproj/InfoPlist.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pmwb0kQ+DW+JzHmtYaCmFgkbua8=
+			w7AENoxtXUow4wVBqYL2h2GqBcE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ic0wfsPFEardpGxYAhSwzUDwvxGopbk3GoKQulWNO5A=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/LICENSE (libopc)</key>
-		<data>
-		7McgBZ1FDJ/JKYfwqw9YrpEjdKs=
-		</data>
-		<key>Resources/OPC.rsrc</key>
-		<data>
-		EPMwgqpX35NTIQfvlPfXlQsSkmU=
-		</data>
-		<key>Resources/README (zlib)</key>
-		<data>
-		s5+38SLDwdTXs9NFYBiS0Oqke7s=
-		</data>
 		<key>Resources/constants.xlf</key>
-		<data>
-		P1w7FdGdUVsSkAF1Av+2fz/aMMU=
-		</data>
-		<key>Resources/documentation.xml</key>
-		<data>
-		7CvYCWrypPhngn4jwGIR2tGkYpw=
-		</data>
-		<key>Resources/kmapper.xml</key>
-		<data>
-		K7SvE+rkgl4jK0XwHNnYJMX33vY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			/AXWdvSPL+jD5o1aySo7EM4Hfsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			yuD3gc0wAepUPCbsdfPLbHVhWPz1sZ6ojDxzwQvL2LM=
+			</data>
+		</dict>
 		<key>Windows/OPC.4DX</key>
-		<data>
-		nB+Y1u/2X6u8BtyxGBV7T/z+I9M=
-		</data>
-		<key>Windows/OPC.RSR</key>
-		<data>
-		aG1fyojtrsNJ+0kRnacx32nhBA4=
-		</data>
-		<key>Windows/OPC.htm</key>
-		<data>
-		3f3hE90+GMuzyHmK9RVQvLK+Zs8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ekmnLYKaTQ9l/L/zE4wW7fhskcg=
+			</data>
+			<key>hash2</key>
+			<data>
+			AOk5ZqAca6xGh6GOU+q1MEL6Oyvh98BfjTs0PSIGiqA=
+			</data>
+		</dict>
+		<key>Windows/OPC.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
+			</data>
+			<key>hash2</key>
+			<data>
+			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
+			</data>
+		</dict>
 		<key>Windows/libiconv-2.dll</key>
-		<data>
-		P/ATWbvoch56l7XVaVBBjATsxtQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			P/ATWbvoch56l7XVaVBBjATsxtQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			6Uv64fEPClT+qc2diKu4ZbjJ+1MsCDrLFocZ38M15wU=
+			</data>
+		</dict>
 		<key>Windows/libopc.dll</key>
-		<data>
-		CF4yrjSzfyBMI7kgoWHRI5G4178=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			CF4yrjSzfyBMI7kgoWHRI5G4178=
+			</data>
+			<key>hash2</key>
+			<data>
+			oyvrwPsD+lgFQFDkU9YzPCL0zfwvtckG+vXgJPq/jmg=
+			</data>
+		</dict>
 		<key>Windows/libxml2-2.dll</key>
-		<data>
-		75wM1bDuIaRoryB9Z3RuLWd2f1o=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			75wM1bDuIaRoryB9Z3RuLWd2f1o=
+			</data>
+			<key>hash2</key>
+			<data>
+			93oK1hUWfQ6XMMLdB07btmeaPhIT7b6kSu5P5mpvnYg=
+			</data>
+		</dict>
 		<key>Windows/zlib1.dll</key>
-		<data>
-		yx96WOqv/qMHzNW72nGCq/J8+/M=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			yx96WOqv/qMHzNW72nGCq/J8+/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			77PItFuTYqUH8xsz0DmSBTYPPJlkQP4eIOFqaiK+MFc=
+			</data>
+		</dict>
 		<key>Windows64/OPC.4DX</key>
-		<data>
-		+rD4TBHPfRQdC3hSu1Nid1/QF8I=
-		</data>
-		<key>Windows64/OPC.RSR</key>
-		<data>
-		aG1fyojtrsNJ+0kRnacx32nhBA4=
-		</data>
-		<key>Windows64/OPC.htm</key>
-		<data>
-		3f3hE90+GMuzyHmK9RVQvLK+Zs8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zumxaTUU5tcJMWwsPj0T+ugjsJQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			UBjpdbhoGPdNjqO0wMhq9uQ+cXpaZm7DJ5dRRYvh6/A=
+			</data>
+		</dict>
+		<key>Windows64/OPC.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3f3hE90+GMuzyHmK9RVQvLK+Zs8=
+			</data>
+			<key>hash2</key>
+			<data>
+			EKLRdLPtg+PsdxOrCPdnhlHZLbWCJYLapu/sbQTYgHg=
+			</data>
+		</dict>
 		<key>Windows64/libiconv-2.dll</key>
-		<data>
-		7oRLIqKeD2dtHmZYEDJZ/dhw9O0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7oRLIqKeD2dtHmZYEDJZ/dhw9O0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gx4Tbkmn+Skpw8Cn4ob5jz8LKei1UVYoTyZH41gPqkc=
+			</data>
+		</dict>
 		<key>Windows64/libopc.dll</key>
-		<data>
-		zklxH23AycBA1qvmkvfhGZS99V4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			zklxH23AycBA1qvmkvfhGZS99V4=
+			</data>
+			<key>hash2</key>
+			<data>
+			yTU22F1fLhldH1w0EOoFAqEJPvB6CRdlBTHwTzCQirA=
+			</data>
+		</dict>
 		<key>Windows64/libxml2-2.dll</key>
-		<data>
-		n+ItDVhKGrbCkP8PTZudbhSioB4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			n+ItDVhKGrbCkP8PTZudbhSioB4=
+			</data>
+			<key>hash2</key>
+			<data>
+			ucSelSa9G6h8zO80bzwoBOLOZKME3RVmFFAaHJeHxCQ=
+			</data>
+		</dict>
 		<key>Windows64/zlib1.dll</key>
-		<data>
-		SiVXZ7ZrTjpruapBjuBUGXS+tM4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			SiVXZ7ZrTjpruapBjuBUGXS+tM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			6hugoNV4fHKzH16vs8XZArxygdLfW3gIsAFjAxxkb0M=
+			</data>
+		</dict>
+		<key>manifest.json</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			qKz9Iw775+lhDoHo2e5F5TM7C7E=
+			</data>
+			<key>requirement</key>
+			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
