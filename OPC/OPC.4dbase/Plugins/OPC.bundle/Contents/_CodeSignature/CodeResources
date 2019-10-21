@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w7AENoxtXUow4wVBqYL2h2GqBcE=
+			rCLDbc4S4ql0YVve8cTIvKSqqJE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			m3kDgMfXxNCLOvIuqoomNSqT2e4=
+			lqpU/5fJJUSTBLwjq433Y0CCmsY=
 			</data>
 			<key>requirement</key>
 			<string>identifier libiconv and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			L3zM8aFS6Fdbh3ThRiKO6GzRXxo=
+			w//LiJ660cw7fMlmQ/hRC6dkEaY=
 			</data>
 			<key>requirement</key>
 			<string>identifier libopc and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -143,7 +143,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			0OOWtsw6BaQxKxhUOZJVNJMKN48=
+			vbJxjWnwoYJxCH5GM0KXFU8+B0Q=
 			</data>
 			<key>requirement</key>
 			<string>identifier libxml2 and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			w9n3zOQvhGb8qCTZdPKzMmC69Hs=
+			d9vfnUEmk/cOoeEhftHl1t5tsPA=
 			</data>
 			<key>requirement</key>
 			<string>identifier libz and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
@@ -425,11 +425,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w7AENoxtXUow4wVBqYL2h2GqBcE=
+			rCLDbc4S4ql0YVve8cTIvKSqqJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ic0wfsPFEardpGxYAhSwzUDwvxGopbk3GoKQulWNO5A=
+			t6u+mt7qUOSKBzircN7zokRbzt16Exsj/AFwqO8SiM8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -605,6 +605,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -663,6 +668,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
