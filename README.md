@@ -27,3 +27,5 @@ Modify ``plib.h``
 #define snprintf _snprintf
 #endif
 ```
+
+Supply ``iconv.h`` ``unistd.h`` for Windows.  
