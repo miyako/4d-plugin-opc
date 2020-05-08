@@ -18,4 +18,12 @@ Please consult the [wiki](https://github.com/miyako/4d-plugin-opc/wiki).
 
 ### Remarks
 
-Modify libopc to accept Unicode file paths on Windows.  
+Modify ``file.c`` to accept Unicode file paths on Windows.  
+
+Modify ``plib.h``
+
+```c
+#if _MSC_VER < 1900 
+#define snprintf _snprintf
+#endif
+```
