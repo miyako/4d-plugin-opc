@@ -1,0 +1,88 @@
+{
+	"themes": [
+		{
+			"theme": "OPC Error Code",
+			"constants": [
+				{
+					"name": "OPC_ERROR_INVALID_RELATION_TYP",
+					"value": "-4:L"
+				},
+        {
+					"name": "OPC_ERROR_INVALID_RELATION_ID",
+					"value": "-3:L"
+				},
+        {
+					"name": "OPC_ERROR_INVALID_RESOURCE_ID",
+					"value": "-2:L"
+				},
+        {
+					"name": "OPC_ERROR_INVALID_PATH",
+					"value": "-1:L"
+				},
+        {
+					"name": "OPC_ERROR_NONE",
+					"value": "0:L"
+				}
+			]
+		},
+    {
+			"theme": "OPC Document Type",
+			"constants": [
+				{
+					"name": "OPC_DOCX",
+					"value": "0:L"
+				},
+        {
+					"name": "OPC_XLSX",
+					"value": "1:L"
+				},
+        {
+					"name": "OPC_PPTX",
+					"value": "2:L"
+				}
+			]
+		},
+    {
+			"theme": "OPC Part",
+			"constants": [
+				{
+					"name": "OPC_ROOT",
+					"value": ""
+				}
+			]
+		},
+    {
+			"theme": "OPC Relation Type",
+			"constants": [
+				{
+					"name": "OPC_IMAGE",
+					"value": "0:L"
+				},
+        {
+					"name": "OPC_STYLES",
+					"value": "1:L"
+				},
+        {
+					"name": "OPC_STYLES_WITH_EFFECTS",
+					"value": "2:L"
+				},
+        {
+					"name": "OPC_SETTINGS",
+					"value": "3:L"
+				},
+        {
+					"name": "OPC_WEB_SETTINGS",
+					"value": "4:L"
+				},
+        {
+					"name": "OPC_FONT_TABLE",
+					"value": "5:L"
+				},
+        {
+					"name": "OPC_THEME",
+					"value": "6:L"
+				}
+			]
+		}
+	]
+}
