@@ -11,6 +11,28 @@ Implementation of [libopc](https://github.com/freuter/libopc) by Florian Reuter.
 
 Please consult the [wiki](https://github.com/miyako/4d-plugin-opc/wiki).
 
+### Remarks for Apple Silicon
+
+* apply `chmod +x configure` to all 3 configure files.
+* change to `xmlValidateNCName` for error
+
+```
+../../../third_party/libxml2-2.7.7/debugXML.c:257:13: error: implicit declaration of function 'xmlValidateName' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+```
+
+* `#define LIBXML_THREAD_ENABLED 1` for error
+
+```
+../../../third_party/libxml2-2.7.7/threads.c:664:33: error: use of undeclared identifier 'xmlOnceInit'
+    pthread_once(&once_control, xmlOnceInit);
+```
+
+* specify `--arch` and `--toolchain`
+
+```
+./configure --arch=arm64 --toolchain="clang" 
+```
+
 ### Remarks
 
 Modify ``file.c`` to accept Unicode file paths on Windows.  
