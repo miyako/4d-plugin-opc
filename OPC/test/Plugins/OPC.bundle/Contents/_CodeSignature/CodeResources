@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FaTUHJ1qHjvbIa0eggYDlnO+EBc=
+			mnATiH1WbxoWioCG25QsDWNIogw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xmfup/X+AtF7hJIsSJpqVJjs8YUsLtJaoGxspzFKaLQ=
+			S2jcNcLkLS/g7mpCHJPYd6WgDULL6/zPW7XXgSiHQmY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -65,7 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xqCQ0b8rjFCnC832Qaonv85LnpvjKy2syS0LqFNKLmY=
+			Q47Ha9ruoCizwWxSKWqJusmiB3NrFg1r7DXrC+Eq1rc=
+			</data>
+		</dict>
+		<key>Windows64/OPC.lib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gehn3AkVL1oQC6oTP4mSYR5tMc7EY5LiYN5w1VbEoss=
 			</data>
 		</dict>
 	</dict>
