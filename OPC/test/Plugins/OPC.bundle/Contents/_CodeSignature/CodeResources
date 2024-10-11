@@ -54,25 +54,11 @@
 			Itz/oACo3eQt4XdCwbKwhFlVrbHU3Zvf6JKt+dK7EIQ=
 			</data>
 		</dict>
-		<key>Windows/OPC.4DX</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KQR6KtrOhuz/njWgbNnzyAWZqgrHwHB9e+CAgB2wy8E=
-			</data>
-		</dict>
 		<key>Windows64/OPC.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Q47Ha9ruoCizwWxSKWqJusmiB3NrFg1r7DXrC+Eq1rc=
-			</data>
-		</dict>
-		<key>Windows64/OPC.lib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gehn3AkVL1oQC6oTP4mSYR5tMc7EY5LiYN5w1VbEoss=
 			</data>
 		</dict>
 	</dict>
