@@ -7,7 +7,7 @@
 =============
 A plugin to read and write DOCX, XLSX, PPTX files in 4D.
 
-Implementation of [libopc](https://github.com/freuter/libopc) by Florian Reuter.
+Implementation of [libopc](https://github.com/miyako/libopc) by Florian Reuter.
 
 Please consult the [wiki](https://github.com/miyako/4d-plugin-opc/wiki).
 
