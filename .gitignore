@@ -1,2 +1,5 @@
 OPC/build/*
 OPC/test/userPreferences.*
+OPC/.vs/*
+OPC/Objs*
+*.exp
