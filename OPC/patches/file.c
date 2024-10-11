@@ -98,7 +98,7 @@ static void *opcFileOpen(const xmlChar *filename, int flags) {
     mode[mode_ofs++]='r';
     mode[mode_ofs++]='b';
     mode[mode_ofs++]='\0';
-    FILE *file=fopen((const char*)filename, mode); // try to open in READ mode...
+    FILE *file=ufopen((const char*)filename, mode); // try to open in READ mode...
     if (flags & OPC_FILE_WRITE) {
         if (NULL!=file && flags & OPC_FILE_TRUNC) {
             fclose(file); file=NULL; // force creating of new file..
@@ -110,7 +110,7 @@ static void *opcFileOpen(const xmlChar *filename, int flags) {
             mode[mode_ofs++]='+';
             mode[mode_ofs++]='b';
             mode[mode_ofs++]='\0';
-            file=fopen((const char *)filename, mode); // try to open new file
+            file=ufopen((const char *)filename, mode); // try to open new file
         } else {
             fclose(file); // close the read handle...
             mode_ofs=0;
@@ -118,7 +118,7 @@ static void *opcFileOpen(const xmlChar *filename, int flags) {
             mode[mode_ofs++]='+';
             mode[mode_ofs++]='b';
             mode[mode_ofs++]='\0';
-            file=fopen((const char *)filename, mode); // try to open existing for read/write
+            file=ufopen((const char *)filename, mode); // try to open existing for read/write
         }
     }
     return file;
