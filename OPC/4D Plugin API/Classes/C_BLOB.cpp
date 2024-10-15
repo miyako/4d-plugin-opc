@@ -46,7 +46,11 @@ void CBytes::toParamAtIndex(PackagePtr pParams, uint32_t index)
 	{
 		PA_Handle *h = (PA_Handle *)(pParams[index - 1]);
 		
+		/*
+		this seems to crash on windows
 		if (*h) PA_DisposeHandle(*h);
+		*/
+		
 				
 		PA_Handle d = PA_NewHandle((unsigned int)this->_CBytes.size());
 		/* PA_NewHandle can fail before ACI0098388 */
