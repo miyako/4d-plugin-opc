@@ -3,3 +3,4 @@ OPC/test/userPreferences.*
 OPC/.vs/*
 OPC/Objs*
 *.exp
+test/Project/DerivedData/*
