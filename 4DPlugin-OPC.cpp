@@ -137,10 +137,10 @@ static void traverseRelation(opcContainer *c,
                 dsts.appendUTF8String(&p);
                 names.appendUTF8String(&n);
                 types.appendUTF8String(&t);
+                
+                traverseRelation(c, part, srcs, dsts, names, types);
                     
             }
-                
-            traverseRelation(c, part, srcs, dsts, names, types);
             
         }else{
             
@@ -665,8 +665,11 @@ void OPC_Set_resource(PA_PluginParameters params) {
             if (OPC_PART_INVALID != part) {
                 
                 opcContainerOutputStream *stream = opcContainerCreateOutputStream(c, part, OPC_COMPRESSIONOPTION_NONE);
-                opcContainerWriteOutputStream(stream, Param4.getBytesPtr(), Param4.getBytesLength());
-                opcContainerCloseOutputStream(stream);
+                
+                if (stream) {
+                    opcContainerWriteOutputStream(stream, Param4.getBytesPtr(), Param4.getBytesLength());
+                    opcContainerCloseOutputStream(stream);
+                }else{returnValue.setIntValue(OPC_ERROR_INVALID_RESOURCE_ID);}
                 
             }else{returnValue.setIntValue(OPC_ERROR_INVALID_RESOURCE_ID);}
             
@@ -732,6 +735,7 @@ void OPC_Create_relation(PA_PluginParameters params) {
     Param3.fromParamAtIndex(pParams, 3);
     Param4.fromParamAtIndex(pParams, 4);
     Param5.fromParamAtIndex(pParams, 5);
+    Param6.fromParamAtIndex(pParams, 6);
 
     if(Param4.getUTF16Length()) {
         
@@ -866,6 +870,7 @@ void OPC_Create_external_relation(PA_PluginParameters params) {
     Param3.fromParamAtIndex(pParams, 3);
     Param4.fromParamAtIndex(pParams, 4);
     Param5.fromParamAtIndex(pParams, 5);
+    Param6.fromParamAtIndex(pParams, 6);
     
     if(Param4.getUTF16Length()) {
         
@@ -911,6 +916,8 @@ void OPC_Create_external_relation(PA_PluginParameters params) {
                     }else{returnValue.setIntValue(OPC_ERROR_INVALID_RESOURCE_ID);}
                 
                 }else{returnValue.setIntValue(OPC_ERROR_INVALID_RESOURCE_ID);}
+                
+                opcContainerClose(c, OPC_CLOSE_NOW);
                 
             }else{returnValue.setIntValue(OPC_ERROR_INVALID_PATH);}
             
