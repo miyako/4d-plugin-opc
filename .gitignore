@@ -4,3 +4,4 @@ OPC/.vs/*
 OPC/Objs*
 *.exp
 test/Project/DerivedData/*
+build/*
